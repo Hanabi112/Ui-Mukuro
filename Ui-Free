@@ -147,8 +147,10 @@ function DiscordLib:Window(text,mainclr,cls)
 				if uitoggled == false then
 					MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 					wait(.3)
+					MainFrame.Visible = false
 					uitoggled = true
 				else
+					MainFrame.Visible = true
 					MainFrame:TweenSize(UDim2.new(0, 618, 0, 407), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 					uitoggled = false
 				end
