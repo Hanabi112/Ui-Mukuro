@@ -1,5 +1,5 @@
-if game:GetService("CoreGui"):FindFirstChild("MUKURO GUI") then
-	game:GetService("CoreGui"):FindFirstChild("MUKURO GUI"):Destroy()
+if game:GetService("CoreGui"):FindFirstChild("Discord") then
+	game:GetService("CoreGui"):FindFirstChild("Discord"):Destroy()
 end
 local DiscordLib = {}
 local UserInputService = game:GetService("UserInputService")
@@ -93,7 +93,7 @@ local function RippleEffect(object)
 end
 
 local Discord = Instance.new("ScreenGui")
-Discord.Name = "MUKURO GUI"
+Discord.Name = "Discord"
 Discord.Parent = game:GetService("CoreGui")
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
